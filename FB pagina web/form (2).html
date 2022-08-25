@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO</title>
+	<title>MENU</title>
+	<style type="text/css">
+		* {padding:0px;
+			margin:0px;
+
+		}
+
+		#header {
+			margin:auto;
+			width:500px;
+
+		}
+
+		ul, ol 
+		{ 
+			list-style:none;
+
+		}
+		.nav li a {
+			background-color:#000;
+			color:#fff;
+			text-decoration: none;
+			padding: 15px 30px;
+			display: block;
+		}
+		.nav li a:hover {
+			background-color:#636393;
+		}
+
+
+		.nav > li {
+			float:left;
+		}
+		.nav li ul {
+			display:none;
+			position:absolute;
+			min-width:150px;
+		}
+		.nav li:hover > ul { 
+			display:block;
+
+		}
+		ul li a {
+width: 175px;
+height: 40px;
+line-height: 53px;
+border-bottom: 4px solid #636393;
+padding:0px;
+color: #fff;
+font-size:18px;
+font-weight:lighter;
+text-align:center;
+text-decoration: none;
+display: block;
+-webkit-transition: .2s all linear;
+-moz-transition: .2s all linear;
+-o-transition: .2s all linear;
+transition: .2s all linear; 
+}
+
+		
+	</style>
+	<br><br>
+</head>
+
+<body bgcolor="#000">
+
+	<center><img src="FB.jpg"></center>
+
+	<div id="header">
+		
+		<ul class="nav">
+			<li><a href="MENU.html"> Inicio</a></li>
+
+			<li><a href="MENU.html">Paginas</a> <!--Le quite una etiqueta que estaba aqui <html> -->
+			  <ul>
+				<li><a href="pagina web 2.html">Imagenes</a></li>
+				<li><a href="tablas.html">Tablas</a></li>
+				<li><a href="mi pagina web 1.html">Descripciones</a></li>
+				<li><a href="https://www.shopify.com.mx/prueba-gratis/diseno-web?gclid=Cj0KCQjwn7j2BRDrARIsAHJkxmxv5LLE6q6Amb6071M7hDCrPuO9hNGlvXGf6eEu6pj0CXdKxeRYXqMaAoxHEALw_wcB&gclsrc=aw.ds">Otras</a>
+					<ul>
+						<li><a href="https://www.wix.com/dashboard/0ba9b8ec-31c0-4c66-8bf4-68dc9412ade9/home">WIX</a></li>
+						<li><a href="https://wordpress.com/alp/?aff=58022&cid=8348279">WORDPRES</a><</li>
+						<li><a href="https://mx.godaddy.com/?isc=gt13mx81&currencyType=mxn&gclid=Cj0KCQjwn7j2BRDrARIsAHJkxmycylBVaW89pvMeNvN8hX88NyYAs2Y37oMPBhc-igExrL0JftCPeR4aAiSdEALw_wcB&gclsrc=aw.ds">GO DADDY</a></li>
+					</ul></li>
+			  </ul>
+			</li>
+			<li><a href="MENU.html">Plantillas</a>
+				<ul>
+					<li><a href="form (2).html">Formularios</a></li>
+				    <li><a href="pagina web 2.html">Mapas</a></li>
+				    <li><a href="tablas.html">Tablas</a></li>
+				    <li><a href="mi pagina web 1.html">Descripciones</a></li>
+
+				</ul>
+			</li>
+			<li><a href="FORM.html">Registro</a>
+				<ul>
+					<li><a href="FORM.html">Formulario</a></li>
+				</ul>
+			</li>	
+		</ul>
+
+	</div>
+
+	<center>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<p><font color="#636393" size="6" face="Big Caslon"><u> Plantilla para cuestionearios, formularios o registros.</u></font></p>
+
+<br><br><br>
+
+		<h1><font color="#fff" face="Big Caslon">·ENCUESTA DE NUTRICION·</h1><br><br>
+<form>
+<label><font color="#fff" face="Arial"> Nombre Completo</label>
+	<input type="text" name="Nombre" maxlength="40" minlength="5" placeholder="Nombre Completo"><br> <br>
+
+<label><font color="#fff" face="Arial"> Edad</label>
+	<input type="number" name="Edad" maxlength="2" minlength="1" placeholder="Edad"><br> <br>
+
+	<label>Genero</label>
+	<input type="radio" name="Genero">Femenino <br>
+	<input type="radio" name="Genero">Masculino <br><br>
+
+<label>Actividades realizadas</label>
+<input type="checkbox" name="Actividades realizadas">Estudiante 
+<input type="checkbox" name="Actividades realizadas">Trabajad@r 
+<input type="checkbox" name="Actividades realizadas">Ama de casa <br><br>
+
+
+	<label><font color="#fff" face="Arial">Peso</label>
+	<input type="number" name="Peso" maxlength="3" minlength="1" placeholder="Peso"><br><br>
+
+<label><font color="#fff" face="Arial">Estatura </label>
+	<input type="number" name="Estatura" maxlength="4" minlength="2" placeholder="Estatura"><br><br>
+
+	<label><font color="#fff" face="Arial">Masa Corporal</label>
+	<input type="number" name="Masa Corporal" maxlength="10" minlength="2" placeholder="Masa Corporal"><br><br>
+
+	<label><font color="#fff" face="Arial">¿Presenta alguna enfermedad?</label>
+	<input type="text" name="Enfermedades " maxlength="2" minlength="2" placeholder="si o no"><br><br>
+
+<label><font color="#fff" face="Arial">¿Cual?</label>
+	<input type="text" name="Tipo de enfermedad " maxlength="20" minlength="5" placeholder="Tipo de enfermedad"><br><br>
+
+<label><font color="#fff" face="Arial">Correo electronico</label>
+	<input type="email" name="Correo electronico" maxlength="30" minlength="5" placeholder="Correo electronico"><br><br>
+
+	<label><font color="#fff" face="Arial">Numero celular</label>
+	<input type="number" name="Celular " maxlength="15" minlength="5" placeholder="Ej. 33204950"><br><br>
+
+	<label>¿A que consultorio asiste?</label>
+	<select size= "1">
+		<option value="1">Hospital civil</option>
+		<option value="2">Hospital central</option>
+		<option value="3">Hospital del carmen </option>
+		<option value="4"> Hospital country</option>
+		<option value="5"> Hospital arboleda</option><br><br>
+     </select><br><br>
+
+<label><font color="#fff" face="Arial">Proxima consulta </label>
+	<input type="date" name="Proxima consulta" maxlength="10" minlength="5" placeholder="00/00/00"><br><br>
+
+<label>Curp</label>
+<input type="file" name="Curp" placeholder="selecciona tu archivo"><br><br>
+
+<input type="submit" name="Enviar"><br><br>
+<input type="reset" name="limpiar"><br><br>
+<br><br><br>
+<img src="https://sercaman.es/wp-content/uploads/2019/10/disen%CC%83o-web-y-marketing-online.jpg">
+<br><br><br>
+
+<center><a href="FORM.html"><button>Registrate</button></a></center>
+<br><br>
+
+<p><center><font color="909090" size="1" face="arial">copyright 2020 creado por Fer Barroso</font></center></p>
+
+	
+</body>
+</html>
